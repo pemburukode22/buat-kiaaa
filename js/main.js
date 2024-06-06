@@ -1,5 +1,7 @@
 
 onload = () => {
+  const audio = new Audio("hasil.mp3") 
+  audio.play() 
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
