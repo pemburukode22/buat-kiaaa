@@ -1,11 +1,9 @@
 
 onload = () => {
-  const audio = new Audio("hasil.mp3") 
-  audio.play() 
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('I LOVE U').split('')
+    const titles = ('Maafin Aku Ya Kiaa🙏').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
